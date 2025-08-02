@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+:root{
+    --ambarP: #F59E0B; /*Usado em botões e elementos de destaque.*/
+    --ambarS: #fbbf24; /*Usado no hover dos botões.*/
+    --ambarEscuro: #92400e; /*Usado no texto da navbar, títulos e rodapé.*/
+    --ambarClaro: #fffbeb; /*Usado como fundo principal do site e em algumas seções.*/
+    --cinza700: #374151;
+}
+
+*{
+    margin: 0px;
+    text-shadow: 0px 1px 2px #3741513d;
+}
+
+
+body{
+    background-color: var(--ambarClaro);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu:hover :not(a:hover){
+    opacity: 0.2;
+}
+
+#nav-flex{
+    background-color: white;
+   padding: 20px;
+    position: fixed;
+   top: 0;
+   width: 100%;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--ambarEscuro);
+    padding-right: 20px;
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--ambarEscuro);
+    font-size: 1.1rem;
+    padding-right: 20px;
+}
+
+header nav a:hover{
+    color: var(--ambarP);
+}
+
+
+img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#cardapio{
+    text-shadow: none;
+    background-color: white;
+    margin:94px auto auto auto;
+    padding: 20px 20px 40px 20px;
+    max-width: 1200px;
+    min-width: 320px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.274);
+}
+
+#cardapio h1{
+    text-shadow: none;
+    font-size: 3rem;
+    color: white;
+}
+
+
+.secoes-cardapio{
+    background-color: #92410eb6;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0pX 5px rgba(0, 0, 0, 0.308);
+}
+
+.opcoes{
+    background-color: white;
+    text-align: start;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 600px;
+    min-width: 320px;
+    border-radius: 10px;
+}
+
+.opcoes h3{
+    text-shadow: none;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.opcoes p{
+    color: var(--cinza700);
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+
+button{ 
+    background-color: var(--ambarS) ;
+    color: var(--ambarEscuro);
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    background-color: var(--ambarP);
+    color: white;
+}
+
+.container-button{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}

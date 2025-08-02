@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+:root{
+    --ambarP: #F59E0B; /*Usado em botões e elementos de destaque.*/
+    --ambarS: #fbbf24; /*Usado no hover dos botões.*/
+    --ambarEscuro: #92400e; /*Usado no texto da navbar, títulos e rodapé.*/
+    --ambarClaro: #fffbeb; /*Usado como fundo principal do site e em algumas seções.*/
+    --cinza700: #374151;
+}
+
+*{
+    margin: 0px;
+    text-shadow: 0px 1px 2px #3741513d;
+}
+
+
+body{
+    background-color: var(--ambarClaro);
+}
+
+#nav-flex{
+    background-color: white;
+   padding: 20px;
+    position: fixed;
+   top: 0;
+   width: 100%;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu:hover :not(a:hover){
+    opacity: 0.2;
+}
+
+
+header h1{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--ambarEscuro);
+    padding-right: 20px;
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--ambarEscuro);
+    font-size: 1.1rem;
+    padding-right: 20px;
+}
+
+header nav a:hover{
+    color: var(--ambarP);
+}
+
+#section-inicial-box {
+    background-color: #92410eb6;
+    text-align: center;
+    min-width: 320px;
+    max-width: 500px;
+    margin: 170px auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.432);
+}
+
+#section-inicial-box  h1{
+    font-size: 3rem;
+    color: white;
+    padding: 5px;
+    margin-top: 255px;
+}
+
+#section-inicial-box p{
+    color: white;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.botton{
+    text-align: center;
+    background-color: var(--ambarP);
+    padding: 10px;
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.botton a{
+    text-decoration: none;
+    color: var(--ambarEscuro);
+}
+
+.botton:hover{
+    background-color: var(--ambarS);
+    color: var(--ambarP);
+}
+
+#section-promotion-box{
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+    text-align: center;
+    padding: 20px;
+}
+
+#section-promotion-box h1{
+    color: var(--ambarEscuro);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#section-promotion-box h3{
+    text-shadow: none;
+    font-size: 1.5rem;
+    color: var(--ambarEscuro);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#section-promotion-box p{
+    color: var(--cinza700);
+    margin-bottom: 20px;
+}
+
+#promotion {
+    background-color: #f59f0b50;
+    text-align: start;
+    padding: 20px 20px 1px 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    min-width: 320px;
+    border-radius: 10px;
+}
+
+.promotion-botton{
+    text-align: center;
+    background-color: var(--ambarP);
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 20px;   
+}
+
+.promotion-botton a{
+    text-decoration: none;
+    color: var(--ambarEscuro);
+
+}
+
+.promotion-botton:hover{
+    background-color: var(--ambarS);
+    color: var(--ambarEscuro);
+}
+
+#section-contactme{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#section-contactme h3{
+    color: var(--ambarEscuro);
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#section-contactme p{
+    color: var(--cinza700);
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+footer{
+    background-color: var(--ambarEscuro);
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 20px;
+
+}
