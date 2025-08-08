@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root{
+    --ambarP: #F59E0B; /*Usado em botões e elementos de destaque.*/
+    --ambarS: #fbbf24; /*Usado no hover dos botões.*/
+    --ambarEscuro: #92400e; /*Usado no texto da navbar, títulos e rodapé.*/
+    --ambarClaro: #fffbeb; /*Usado como fundo principal do site e em algumas seções.*/
+    --cinza700: #374151;
+}
+
+*{
+    margin: 0px;
+    text-shadow: 0px 1px 2px #3741513d;
+}
+
+
+body{
+    background-color: var(--ambarClaro);
+}
+

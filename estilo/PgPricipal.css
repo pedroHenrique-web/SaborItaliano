@@ -39,6 +39,21 @@ body{
 }
 
 
+
+#SaborItaliano-iconLogin-inline{
+    display: inline-block;
+    align-items: end;
+    justify-content: end;
+}
+
+img{
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+
+}
+
 header h1{
     font-weight: bold;
     font-size: 1.8rem;
